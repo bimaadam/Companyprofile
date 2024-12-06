@@ -1,8 +1,8 @@
-import {Button, Divider, Input, Text} from '@nextui-org/react';
+import { Button, Divider, Input, Link, Text } from '@nextui-org/react';
 import React from 'react';
-import {CheckIcon} from '../icons/CheckIcon';
-import {Box} from '../styles/box';
-import {Flex} from '../styles/flex';
+import { CheckIcon } from '../icons/CheckIcon';
+import { Box } from '../styles/box';
+import { Flex } from '../styles/flex';
 
 export const Hero = () => {
    return (
@@ -83,7 +83,10 @@ export const Hero = () => {
                   wrap={'wrap'}
                >
                   <Input placeholder="Enter your email address" size="lg" />
-                  <Button>Segera Hubungi Kami</Button>
+                  <a href="mailto:bimavyanisy12@gmail.com">
+                     <Button>Segera Hubungi Kami</Button>
+                  </a>
+
                </Flex>
                <Flex
                   wrap={'wrap'}
@@ -129,11 +132,11 @@ export const Hero = () => {
                   },
                }}
             >
-               <img src="mock.png" />
+               <img src="cv.png" />
             </Box>
          </Flex>
          <Divider
-            css={{position: 'absolute', inset: '0p', left: '0', mt: '$10'}}
+            css={{ position: 'absolute', inset: '0p', left: '0', mt: '$10' }}
          />
       </>
    );

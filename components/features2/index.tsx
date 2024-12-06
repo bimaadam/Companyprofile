@@ -28,9 +28,9 @@ export const Features2 = () => {
          >
             <Flex direction="column" align={'center'}>
                <Text span css={{color: '$blue600'}}>
-                  Awesome Feature
+                  
                </Text>
-               <Text h3>Your title here</Text>
+               <Text h3>Tentang Perusahaan</Text>
                <Text
                   span
                   css={{
@@ -38,10 +38,7 @@ export const Features2 = () => {
                      color: '$accents8',
                   }}
                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  condimentum, nisl ut aliquam lacinia, nisl nisl aliquet nisl,
-                  nec tincidunt nisl lorem eu nunc. Sed euismod, nisl ut aliquam
-                  lacinia,
+                  CV. Abyzain Jaya Teknika merupakan perusahaan yang bergerak di bidang penyedia barang, fabrikasi dan menangani perawatan, perbaikan, modifikasi permesinan industri. Terutama mesin-mesin industri manufacturing Mesin CNC, Press, Welding, Custom.
                </Text>
 
                <Flex
@@ -60,7 +57,7 @@ export const Features2 = () => {
                      <BoxIcon />
                      <Flex direction={'column'}>
                         <Text h4 weight={'medium'}>
-                           Your title here
+                           VISI
                         </Text>
                         <Text
                            span
@@ -69,9 +66,7 @@ export const Features2 = () => {
                               color: '$accents8',
                            }}
                         >
-                           Lorem ipsum dolor sit amet, consectetur adipiscing
-                           elit. Sed condimentum, nisl ut aliquam lacinia, nisl
-                           nisl aliquet nisl,
+                           Menjadi perusahaan dagang dan jasa yang terbaik dan terpercaya diseluruh Indonesia.
                         </Text>
                      </Flex>
                   </Flex>
@@ -84,7 +79,7 @@ export const Features2 = () => {
                      <BoxIcon />
                      <Flex direction={'column'}>
                         <Text h4 weight={'medium'}>
-                           Your title here
+                           MISI
                         </Text>
                         <Text
                            span
@@ -92,10 +87,13 @@ export const Features2 = () => {
                               maxWidth: '325px',
                               color: '$accents8',
                            }}
-                        >
-                           Lorem ipsum dolor sit amet, consectetur adipiscing
-                           elit. Sed condimentum, nisl ut aliquam lacinia, nisl
-                           nisl aliquet nisl,
+                           >
+                           
+                           <li>Meningkatkan dan mensupport perkembangan Industri. </li>
+                           <li>Menjalin kerjasama dengan banyak relasi.</li>
+                           <li>Memberikan lapangan pekerjaan bagi masyarakat</li>
+                           <li>Menjalin hubungan kerja sama yang baik dengan para distributor dan konsumen.</li>
+                           
                         </Text>
                      </Flex>
                   </Flex>

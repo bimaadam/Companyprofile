@@ -30,7 +30,7 @@ export const ModalLogin = () => {
                <Text id="modal-title" size={18}>
                   Welcome to
                   <Text b size={18}>
-                     Abyzain Jaya Teknika
+                  Abyzain Jaya Teknika
                   </Text>
                </Text>
             </Modal.Header>

@@ -27,10 +27,10 @@ export const Features1 = () => {
             }}
          >
             <Flex direction="column">
-               <Text span css={{color: '$blue600'}}>
+               {/* <Text span css={{color: '$blue600'}}>
                   Awesome Feature
-               </Text>
-               <Text h3>Your title here</Text>
+               </Text> */}
+               <Text h3>Pengalaman Service & Repair 🔑</Text>
                <Text
                   span
                   css={{
@@ -38,10 +38,7 @@ export const Features1 = () => {
                      color: '$accents8',
                   }}
                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  condimentum, nisl ut aliquam lacinia, nisl nisl aliquet nisl,
-                  nec tincidunt nisl lorem eu nunc. Sed euismod, nisl ut aliquam
-                  lacinia,
+                  
                </Text>
 
                <Flex
@@ -53,7 +50,7 @@ export const Features1 = () => {
                   <BoxIcon />
                   <Flex direction={'column'}>
                      <Text h4 weight={'medium'}>
-                        Your title here
+                        PT. SUMIDEN SINTERED COMPONENTS INDONESIA
                      </Text>
                      <Text
                         span
@@ -62,9 +59,9 @@ export const Features1 = () => {
                            color: '$accents8',
                         }}
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet nisl,
+                        aliquet nisl, */}
                      </Text>
                   </Flex>
                </Flex>
@@ -77,7 +74,7 @@ export const Features1 = () => {
                   <BoxIcon />
                   <Flex direction={'column'}>
                      <Text h4 weight={'medium'}>
-                        Your title here
+                        PT. MITRANOVA
                      </Text>
                      <Text
                         span
@@ -86,9 +83,9 @@ export const Features1 = () => {
                            color: '$accents8',
                         }}
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet nisl,
+                        aliquet nisl, */}
                      </Text>
                   </Flex>
                </Flex>
@@ -101,7 +98,7 @@ export const Features1 = () => {
                   <BoxIcon />
                   <Flex direction={'column'}>
                      <Text h4 weight={'medium'}>
-                        Your title here
+                        PT. AISAN NASMOCO INDONESIA
                      </Text>
                      <Text
                         span
@@ -110,15 +107,16 @@ export const Features1 = () => {
                            color: '$accents8',
                         }}
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        {/* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet nisl,
+                        aliquet nisl, */}
                      </Text>
                   </Flex>
                </Flex>
             </Flex>
+            
             <Flex align={'center'}>
-               <FeatureIcon />
+               <img src="AJT.svg" alt="" />
             </Flex>
          </Flex>
          <Divider
