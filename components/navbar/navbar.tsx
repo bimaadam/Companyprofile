@@ -34,7 +34,7 @@ export const Nav = () => {
             <Text b color="inherit" hideIn="xs">
                Abyzain Jaya Teknika
             </Text>
-            <Navbar.Content
+            {/* <Navbar.Content
                hideIn="sm"
                css={{
                   pl: '6rem',
@@ -121,8 +121,8 @@ export const Nav = () => {
                </Navbar.Link>
                <Navbar.Link href="#">Pricing</Navbar.Link>
                <Navbar.Link href="#">Company</Navbar.Link>
-            </Navbar.Content>
-         </Navbar.Brand>
+            </Navbar.Content>*/}
+            </Navbar.Brand> 
 
          <Navbar.Collapse>
             {collapseItems.map((item, index) => (
