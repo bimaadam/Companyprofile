@@ -50,7 +50,7 @@ const Home: NextPage = () => {
             <meta property="og:title" content="CV. Abyzain Jaya Technika - Fabrikasi, Penyedia Barang dan Permesinan" />
             <meta property="og:description" content="CV. Abyzain Jaya Technika menyediakan layanan fabrikasi dan modifikasi mesin lengkap serta produk permesinan dengan kualitas terbaik." />
             <meta property="og:image" content="https://github.com/bimaadam/Companyprofile/blob/main/public/AJT.png?raw=true" />
-            <meta property="og:url" content="https://www.example.com" />
+            <meta property="og:url" content="https://companyprofile-seven.vercel.app" />
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:title" content="CV. Abyzain Jaya Technika - Fabrikasi, Penyedia Barang dan Permesinan" />
             <meta name="twitter:description" content="CV. Abyzain Jaya Technika menyediakan layanan fabrikasi dan modifikasi mesin lengkap serta produk permesinan dengan kualitas terbaik." />
