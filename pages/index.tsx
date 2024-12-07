@@ -1,5 +1,6 @@
 import { NextPage } from 'next';
 import { useState, useEffect } from 'react';
+import Head from 'next/head'; // Import Head untuk SEO
 import { Faq } from '../components/faq';
 import { Features1 } from '../components/features1';
 import { Features2 } from '../components/features2';
@@ -40,33 +41,50 @@ const Home: NextPage = () => {
    };
 
    return (
-      <Layout>
-         <Nav />
-         <Box as="main">
-            <Hero />
-            {/* <Trusted /> */}
-            <Features1 />
-            <Features2 />
-            <Features3 />
-            <Testimonials />
-            <Statistics />
-            {/* <Plans /> */}
-            <Faq />
-            <Trial />
-            <Footer />
-         </Box>
+      <>
+         <Head>
+            <title>CV. Abyzain Jaya Teknika</title>
+            <meta name="description" content="CV. Abyzain Jaya Technika menyediakan layanan fabrikasi dan modifikasi mesin lengkap serta produk permesinan dengan kualitas terbaik." />
+            <meta name="keywords" content="fabrikasi, mesin, modifikasi mesin, permesinan, penyedia barang, modifikasi, CV Abyzain Jaya Technika" />
+            <meta name="author" content="CV Abyzain Jaya Technika" />
+            <meta property="og:title" content="CV. Abyzain Jaya Technika - Fabrikasi, Penyedia Barang dan Permesinan" />
+            <meta property="og:description" content="CV. Abyzain Jaya Technika menyediakan layanan fabrikasi dan modifikasi mesin lengkap serta produk permesinan dengan kualitas terbaik." />
+            <meta property="og:image" content="https://github.com/bimaadam/Companyprofile/blob/main/public/AJT.png?raw=true" />
+            <meta property="og:url" content="https://www.example.com" />
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:title" content="CV. Abyzain Jaya Technika - Fabrikasi, Penyedia Barang dan Permesinan" />
+            <meta name="twitter:description" content="CV. Abyzain Jaya Technika menyediakan layanan fabrikasi dan modifikasi mesin lengkap serta produk permesinan dengan kualitas terbaik." />
+            <meta name="twitter:image" content="https://example.com/your-image.jpg" />
+            <link rel="icon" href="/AJT.png" />
+         </Head>
 
-         {/* Tombol Scroll ke Atas */}
-         {showButton && (
-            <button
-            onClick={scrollToTop}
-            className={`back-to-top-button ${showButton ? 'show' : ''}`}
-         >
-            ⬆️
-         </button>
-         
-         )}
-      </Layout>
+         <Layout>
+            <Nav />
+            <Box as="main">
+               <Hero />
+               {/* <Trusted /> */}
+               <Features1 />
+               <Features2 />
+               <Features3 />
+               <Testimonials />
+               <Statistics />
+               {/* <Plans /> */}
+               <Faq />
+               <Trial />
+               <Footer />
+            </Box>
+
+            {/* Tombol Scroll ke Atas */}
+            {showButton && (
+               <button
+                  onClick={scrollToTop}
+                  className={`back-to-top-button ${showButton ? 'show' : ''}`}
+               >
+                  ⬆️
+               </button>
+            )}
+         </Layout>
+      </>
    );
 };
 
