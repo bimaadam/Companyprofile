@@ -1,9 +1,32 @@
-html,
-body {
-   padding: 0;
-   margin: 0;
-   font-family: 'Inter', sans-serif;
+html, body {
+   height: 100%; /* Biar scroll aktif */
+   margin: 0; /* Hapus margin bawaan */
+   padding: 0; /* Hapus padding bawaan */
+   overflow-y: auto; /* Aktifkan scroll */
+   scroll-behavior: smooth;
+ }
+ 
+ .back-to-top-button {
+   position: fixed;
+   bottom: 2rem;
+   right: 2rem;
+   padding: 1rem;
+   border-radius: 50%;
+   background-color: #0070f3;
+   color: white;
+   border: none;
+   cursor: pointer;
+   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+   transition: opacity 0.3s ease-in-out, transform 0.3s;
+   opacity: 0;
+   transform: scale(0.9);
 }
+
+.back-to-top-button.show {
+   opacity: 1;
+   transform: scale(1);
+}
+
 
 * {
    box-sizing: border-box;

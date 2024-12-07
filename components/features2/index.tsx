@@ -15,6 +15,7 @@ export const Features2 = () => {
                'justifyContent': 'center',
                'alignItems': 'center',
                'px': '$6',
+               'overflow': 'auto',
 
                '@sm': {
                   gap: '5rem',
@@ -30,7 +31,7 @@ export const Features2 = () => {
                <Text span css={{color: '$blue600'}}>
                   
                </Text>
-               <Text h3>Tentang Perusahaan</Text>
+               <Text id='profile' h3>Tentang Perusahaan</Text>
                <Text
                   span
                   css={{
@@ -40,6 +41,7 @@ export const Features2 = () => {
                >
                   CV. Abyzain Jaya Teknika merupakan perusahaan yang bergerak di bidang penyedia barang, fabrikasi dan menangani perawatan, perbaikan, modifikasi permesinan industri. Terutama mesin-mesin industri manufacturing Mesin CNC, Press, Welding, Custom.
                </Text>
+               
 
                <Flex
                   justify={'center'}
@@ -103,10 +105,12 @@ export const Features2 = () => {
                <FeatureIcon />
             </Flex>
          </Flex>
+         
 
          <Divider
             css={{position: 'absolute', inset: '0p', left: '0', mt: '$5'}}
          />
+         
       </>
    );
 };

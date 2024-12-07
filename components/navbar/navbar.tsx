@@ -11,11 +11,9 @@ export const Nav = () => {
    const {setTheme} = useNextTheme();
    const {isDark, type} = useTheme();
    const collapseItems = [
-      'Features',
       'Customers',
-      'Pricing',
-      'Company',
-      'Legal',
+      'Profile',
+      
    ];
    return (
       <Navbar
@@ -34,13 +32,13 @@ export const Nav = () => {
             <Text b color="inherit" hideIn="xs">
                Abyzain Jaya Teknika
             </Text>
-            {/* <Navbar.Content
+            <Navbar.Content
                hideIn="sm"
                css={{
                   pl: '6rem',
                }}
             >
-               <Dropdown isBordered>
+               {/* <Dropdown isBordered>
                   <Navbar.Item>
                      <Dropdown.Button
                         auto
@@ -115,29 +113,30 @@ export const Nav = () => {
                         +Supreme Support
                      </Dropdown.Item>
                   </Dropdown.Menu>
-               </Dropdown>
-               <Navbar.Link isActive href="#">
+               </Dropdown> */}
+               <Navbar.Link isActive href="#customers">
                   Customers
                </Navbar.Link>
-               <Navbar.Link href="#">Pricing</Navbar.Link>
-               <Navbar.Link href="#">Company</Navbar.Link>
-            </Navbar.Content>*/}
+               {/* <Navbar.Link href="#">Pricing</Navbar.Link> */}
+               <Navbar.Link href="#profile">Company Profile</Navbar.Link>
+            </Navbar.Content>
             </Navbar.Brand> 
 
-         <Navbar.Collapse>
-            {collapseItems.map((item, index) => (
-               <Navbar.CollapseItem key={item}>
-                  <Link
-                     color="inherit"
-                     css={{
-                        minWidth: '100%',
-                     }}
-                     href="#"
-                  >
-                     {item}
-                  </Link>
-               </Navbar.CollapseItem>
+            <Navbar.Collapse>
+   {collapseItems.map((item) => (
+      <Navbar.CollapseItem key={item}>
+         <Link
+            color="inherit"
+            css={{
+               minWidth: '100%',
+            }}
+            href={`#${item.toLowerCase()}`} // Dinamis sesuai nama item
+         >
+            {item}
+         </Link>
+      </Navbar.CollapseItem>
             ))}
+            
             <Navbar.CollapseItem>
                <Link
                   color="inherit"
@@ -145,7 +144,7 @@ export const Nav = () => {
                      minWidth: '100%',
                   }}
                   target="_blank"
-                  href="https://github.com/Siumauricio/landing-template-nextui"
+                  href="https://github.com/bimaadam/"
                >
                   <GithubIcon />
                </Link>
@@ -174,7 +173,7 @@ export const Nav = () => {
                      minWidth: '100%',
                   }}
                   target="_blank"
-                  href="https://github.com/Siumauricio/landing-template-nextui"
+                  href="https://github.com/bimaadam/"
                >
                   <GithubIcon />
                </Link>

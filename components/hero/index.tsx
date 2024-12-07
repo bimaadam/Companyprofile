@@ -72,7 +72,7 @@ export const Hero = () => {
                   size={'$lg'}
                   span
                >
-                  Merupakan perusahaan yang bergerak di bidang penyedia barang, fabrikasi dan modifikasi permesinan industri terutama mesin industri manufacturing.
+                  Bidang penyedia barang, fabrikasi dan modifikasi permesinan industri manufacturing.
                </Text>
 
                <Flex

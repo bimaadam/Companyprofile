@@ -228,7 +228,7 @@ export const Footer = () => {
                      }}
                   >
                      <Text span css={{color: '$accents8'}}>
-                        © Copyright 2021 Acme Inc.
+                        © Copyright 2023 Bima Adam.
                      </Text>
                   </Flex>
                </Flex>

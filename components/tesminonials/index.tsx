@@ -6,7 +6,7 @@ import {Flex} from '../styles/flex';
 export const Testimonials = () => {
    return (
       <>
-         <Flex
+         <Flex id='customers'
             direction={'column'}
             css={{
                'gap': '1rem',
