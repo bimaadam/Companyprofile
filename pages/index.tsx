@@ -66,11 +66,11 @@ const Home: NextPage = () => {
                <Features1 />
                <Features2 />
                <Features3 />
-               <Testimonials />
-               <Statistics />
+               {/* <Testimonials />
+               <Statistics /> */}
                {/* <Plans /> */}
-               <Faq />
-               <Trial />
+               {/* <Faq />
+               <Trial /> */}
                <Footer />
             </Box>
 

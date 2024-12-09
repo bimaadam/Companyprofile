@@ -3,6 +3,7 @@ import React from 'react';
 import {BoxIcon} from '../icons/BoxIcon';
 import {Box} from '../styles/box';
 import {Flex} from '../styles/flex';
+import { FeatureIcon } from '../icons/FeatureIcon';
 
 export const Features3 = () => {
    return (
@@ -21,10 +22,10 @@ export const Features3 = () => {
                   pt: '$20',
                }}
             >
-               <Text span css={{color: '$blue600'}}>
+               {/* <Text span css={{color: '$blue600'}}>
                   Awesome Feature
-               </Text>
-               <Text h3>Your title here</Text>
+               </Text> */}
+               <Text id='jasa' h3>Produk & Pelayanan</Text>
                <Text
                   span
                   css={{
@@ -33,9 +34,7 @@ export const Features3 = () => {
                      textAlign: 'center',
                   }}
                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  condimentum, nisl ut aliquam lacinia, nisl nisl aliquet nisl,
-                  nec
+                  Instalasi, perawatan/maintenance, modifikasi, programing PLC, HMI, dan perbaikan mesin CNC, press, welding, dll
                </Text>
             </Flex>
             <Flex
@@ -52,17 +51,18 @@ export const Features3 = () => {
                      <Flex css={{gap: '0.5rem'}}>
                         <BoxIcon />
                         <Flex direction={'column'}>
-                           <Text h5>Your Title</Text>
+                           <Text h5>Jasa Repair Controller Mesin</Text>
                            <Text span>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl, nec
+                              Power supply module, Servo module, Spindle module, Mitshubishi, fanuc, Takisawa dll.
                            </Text>
                         </Flex>
                      </Flex>
+                     <Flex align={'center'}>
+                        <img src="ps.svg" alt="Power Supply" />
+                        </Flex>
                   </Card.Body>
                </Card>
-               <Card css={{mw: '500px'}}>
+               {/* <Card css={{mw: '500px'}}>
                   <Card.Body>
                      <Flex css={{gap: '0.5rem'}}>
                         <BoxIcon />
@@ -116,9 +116,10 @@ export const Features3 = () => {
                         </Flex>
                      </Flex>
                   </Card.Body>
-               </Card>
+                  </Card> */}
             </Flex>
          </Box>
+
 
          <Divider
             css={{position: 'absolute', inset: '0p', left: '0', mt: '$5'}}

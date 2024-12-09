@@ -116,7 +116,7 @@ export const Features1 = () => {
             </Flex>
             
             <Flex align={'center'}>
-               <img src="AJT.svg" alt="" />
+               <img src="koneksi.svg" alt="" />
             </Flex>
          </Flex>
          <Divider

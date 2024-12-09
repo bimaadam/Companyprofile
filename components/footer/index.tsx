@@ -30,14 +30,14 @@ export const Footer = () => {
                   direction={'column'}
                   align={'center'}
                >
-                  <AcmeLogo />
+                  {/* <AcmeLogo /> */}
                   <Box as={'ul'} css={{gap: '$5', listStyle: 'none'}}>
                      <Box as={'li'}>
                         <Text span css={{color: '$accents8'}}>
-                           First Link
+                           <a target='_blank' href="https://github.com/bimaadam">Developed By Bima Adam</a>
                         </Text>
                      </Box>
-                     <Box as={'li'}>
+                     {/* <Box as={'li'}>
                         <Text span css={{color: '$accents8'}}>
                            Second Link
                         </Text>
@@ -51,7 +51,7 @@ export const Footer = () => {
                         <Text span css={{color: '$accents8'}}>
                            Forth Link
                         </Text>
-                     </Box>
+                     </Box> */}
                   </Box>
                </Flex>
                <Flex
@@ -59,31 +59,31 @@ export const Footer = () => {
                   direction={'column'}
                   align={'center'}
                >
-                  <Text h5>Resources</Text>
+                  <Text h5>Contact</Text>
                   <Box as={'ul'} css={{gap: '$5', listStyle: 'none'}}>
                      <Box as={'li'}>
                         <Text span css={{color: '$accents8'}}>
-                           First Link
+                           <a href="">Linkedin</a>
                         </Text>
                      </Box>
                      <Box as={'li'}>
                         <Text span css={{color: '$accents8'}}>
-                           Second Link
+                           <a href="">Instagram</a>
                         </Text>
                      </Box>
                      <Box as={'li'}>
                         <Text span css={{color: '$accents8'}}>
-                           Third Link
+                           <a href=""></a>
                         </Text>
                      </Box>
-                     <Box as={'li'}>
+                     {/* <Box as={'li'}>
                         <Text span css={{color: '$accents8'}}>
                            Forth Link
                         </Text>
-                     </Box>
+                     </Box> */}
                   </Box>
                </Flex>
-               <Flex
+               {/* <Flex
                   css={{gap: '$5', w: '250px'}}
                   direction={'column'}
                   align={'center'}
@@ -111,20 +111,20 @@ export const Footer = () => {
                         </Text>
                      </Box>
                   </Box>
-               </Flex>
+               </Flex> */}
                <Flex
                   css={{gap: '$5', w: '250px'}}
                   direction={'column'}
                   align={'center'}
                >
-                  <Text h5>Legal</Text>
+                  <Text h5>Location</Text>
                   <Box as={'ul'} css={{gap: '$5', listStyle: 'none'}}>
                      <Box as={'li'}>
                         <Text span css={{color: '$accents8'}}>
-                           First Link
+                        Perum wahana blok D13 no 10, Sukadami, Cikarang Sel., Kabupaten Bekasi, Jawa Barat 17530 🏠.
                         </Text>
                      </Box>
-                     <Box as={'li'}>
+                     {/* <Box as={'li'}>
                         <Text span css={{color: '$accents8'}}>
                            Second Link
                         </Text>
@@ -138,10 +138,10 @@ export const Footer = () => {
                         <Text span css={{color: '$accents8'}}>
                            Forth Link
                         </Text>
-                     </Box>
+                     </Box> */}
                   </Box>
                </Flex>
-               <Flex
+               {/* <Flex
                   css={{gap: '$5', w: '250px'}}
                   direction={'column'}
                   align={'center'}
@@ -169,7 +169,7 @@ export const Footer = () => {
                         </Text>
                      </Box>
                   </Box>
-               </Flex>
+               </Flex> */}
             </Flex>
             <Box
                css={{
@@ -206,9 +206,9 @@ export const Footer = () => {
                      wrap={'wrap'}
                   >
                      <AcmeLogo />
+                     {/* <AcmeLogo />
                      <AcmeLogo />
-                     <AcmeLogo />
-                     <AcmeLogo />
+                     <AcmeLogo /> */}
                   </Flex>
                   <Flex
                      css={{
@@ -228,7 +228,7 @@ export const Footer = () => {
                      }}
                   >
                      <Text span css={{color: '$accents8'}}>
-                        © Copyright 2023 Bima Adam.
+                        © Copyright 2023 Abyzain Jaya Teknika.
                      </Text>
                   </Flex>
                </Flex>

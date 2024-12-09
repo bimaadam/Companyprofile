@@ -119,6 +119,7 @@ export const Nav = () => {
                </Navbar.Link>
                {/* <Navbar.Link href="#">Pricing</Navbar.Link> */}
                <Navbar.Link href="#profile">Company Profile</Navbar.Link>
+               <Navbar.Link href="#jasa">Produk & Layanan</Navbar.Link>
             </Navbar.Content>
             </Navbar.Brand> 
 
