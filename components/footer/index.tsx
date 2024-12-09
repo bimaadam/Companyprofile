@@ -34,7 +34,7 @@ export const Footer = () => {
                   <Box as={'ul'} css={{gap: '$5', listStyle: 'none'}}>
                      <Box as={'li'}>
                         <Text span css={{color: '$accents8'}}>
-                           <a target='_blank' href="https://github.com/bimaadam">Developed By Bima Adam</a>
+                           <a target='_blank' rel="noreferrer" href="https://github.com/bimaadam">Developed By Bima Adam</a>
                         </Text>
                      </Box>
                      {/* <Box as={'li'}>
