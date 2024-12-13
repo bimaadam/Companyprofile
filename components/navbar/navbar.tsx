@@ -6,6 +6,7 @@ import {AcmeLogo} from './logo';
 import {useTheme as useNextTheme} from 'next-themes';
 import {useTheme} from '@nextui-org/react';
 import {GithubIcon} from '../icons/GithubIcon';
+import ContactUsModal from '../contact';
 
 export const Nav = () => {
    const {setTheme} = useNextTheme();
@@ -160,14 +161,15 @@ export const Nav = () => {
             </Navbar.CollapseItem>
          </Navbar.Collapse>
          <Navbar.Content>
-            <ModalLogin />
+            {/* <ModalLogin /> */}
 
             <Navbar.Item>
-               <Button auto flat href="#">
-                  Hubungi Kami
-               </Button>
+               {/* <Button auto flat> */}
+                  {/* Hubungi Kami */}
+                  <ContactUsModal />
+               {/* </Button> */}
             </Navbar.Item>
-            <Navbar.Item hideIn={'xs'}>
+            {/* <Navbar.Item hideIn={'xs'}>
                <Link
                   color="inherit"
                   css={{
@@ -178,7 +180,7 @@ export const Nav = () => {
                >
                   <GithubIcon />
                </Link>
-            </Navbar.Item>
+            </Navbar.Item> */}
             <Navbar.Item hideIn={'xs'}>
                <Switch
                   checked={isDark}

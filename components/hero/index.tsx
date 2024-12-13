@@ -72,7 +72,7 @@ export const Hero = () => {
                   size={'$lg'}
                   span
                >
-                  Bidang penyedia barang, fabrikasi dan modifikasi permesinan industri manufacturing.
+                  Usaha Kami bergerak dibidang permesinan industri serta bergerak dibidang perdagangan umum untuk kebutuhan industri.
                </Text>
 
                <Flex
@@ -82,10 +82,10 @@ export const Hero = () => {
                   }}
                   wrap={'wrap'}
                >
-                  <Input placeholder="Enter your email address" size="lg" />
+                  {/* <Input placeholder="Enter your email address" size="lg" />
                   <a href="mailto:bimavyanisy12@gmail.com">
                      <Button>Segera Hubungi Kami</Button>
-                  </a>
+                  </a> */}
 
                </Flex>
                <Flex
@@ -104,7 +104,7 @@ export const Hero = () => {
                         alignItems: 'center',
                      }}
                   >
-                     <CheckIcon /> Cepat
+                     {/* <CheckIcon /> Cepat */}
                   </Flex>
                   <Flex
                      css={{
@@ -112,7 +112,7 @@ export const Hero = () => {
                         alignItems: 'center',
                      }}
                   >
-                     <CheckIcon /> Tepat
+                     {/* <CheckIcon /> Tepat */}
                   </Flex>
                   <Flex
                      css={{
@@ -120,7 +120,7 @@ export const Hero = () => {
                         alignItems: 'center',
                      }}
                   >
-                     <CheckIcon /> Tangguh
+                     {/* <CheckIcon /> Tangguh */}
                   </Flex>
                </Flex>
             </Box>
