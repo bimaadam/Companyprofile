@@ -139,7 +139,7 @@ export const Nav = () => {
       </Navbar.CollapseItem>
             ))}
             
-            <Navbar.CollapseItem>
+            {/* <Navbar.CollapseItem>
                <Link
                   color="inherit"
                   css={{
@@ -150,7 +150,7 @@ export const Nav = () => {
                >
                   <GithubIcon />
                </Link>
-            </Navbar.CollapseItem>
+            </Navbar.CollapseItem> */}
             <Navbar.CollapseItem>
                <Switch
                   checked={isDark}
