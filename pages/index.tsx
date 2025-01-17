@@ -56,6 +56,7 @@ const Home: NextPage = () => {
             <meta name="twitter:description" content="CV. Abyzain Jaya Teknika menyediakan layanan fabrikasi dan modifikasi mesin lengkap serta produk permesinan dengan kualitas terbaik." />
             <meta name="twitter:image" content="https://abyzainjayateknika.my.id/AJT.png" />
             <link rel="icon" href="/AJT.png" />
+            {/* <meta name="google-adsense-account" content="ca-pub-9183186667394973"></meta> */}
          </Head>
 
          <Layout>
