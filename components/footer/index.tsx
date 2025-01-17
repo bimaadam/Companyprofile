@@ -63,12 +63,12 @@ export const Footer = () => {
                   <Box as={'ul'} css={{gap: '$5', listStyle: 'none'}}>
                      <Box as={'li'}>
                         <Text span css={{color: '$accents8'}}>
-                           <a href="">Linkedin</a>
+                           <a target='_blank' href="https://id.linkedin.com/in/rahmat-khamdalah-9ab3b232b">Linkedin</a>
                         </Text>
                      </Box>
                      <Box as={'li'}>
                         <Text span css={{color: '$accents8'}}>
-                           <a href="">Instagram</a>
+                           <a target='_blank' href="https://www.instagram.com/cv.abyzainjaya/">Instagram</a>
                         </Text>
                      </Box>
                      <Box as={'li'}>

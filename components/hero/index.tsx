@@ -58,7 +58,7 @@ export const Hero = () => {
                      css={{
                         display: 'inline',
                      }}
-                     color="primary"
+                     color="red"
                   >
                      General Trading & Mechanical, Electrical Service
                   </Text>
@@ -132,7 +132,7 @@ export const Hero = () => {
                   },
                }}
             >
-               <img src="cv.png" />
+               <img src="bg.jpg" />
             </Box>
          </Flex>
          <Divider
