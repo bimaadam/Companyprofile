@@ -36,8 +36,7 @@ export const Plans = () => {
                 </Grid>
                 <Grid xs={12}>
                   <Text css={{ color: '$accents8' }}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    condimentum, nisl ut aliquam lacinia, elit
+                    
                   </Text>
                 </Grid>
               </Grid.Container>
@@ -94,8 +93,7 @@ export const Plans = () => {
                 </Grid>
                 <Grid xs={12}>
                   <Text css={{ color: '$accents8' }}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    condimentum, nisl ut aliquam lacinia, elit
+                    {/*  */}
                   </Text>
                 </Grid>
               </Grid.Container>
@@ -152,8 +150,7 @@ export const Plans = () => {
                 </Grid>
                 <Grid xs={12}>
                   <Text css={{ color: '$accents8' }}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    condimentum, nisl ut aliquam lacinia, elit
+                    
                   </Text>
                 </Grid>
               </Grid.Container>
@@ -210,8 +207,7 @@ export const Plans = () => {
                 </Grid>
                 <Grid xs={12}>
                   <Text css={{ color: '$accents8' }}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    condimentum, nisl ut aliquam lacinia, elit
+                    
                   </Text>
                 </Grid>
               </Grid.Container>

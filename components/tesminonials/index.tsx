@@ -43,9 +43,7 @@ export const Testimonials = () => {
                                  color: '$accents8',
                               }}
                            >
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl,
+                             Teks
                            </Text>
                            <Text
                               span
@@ -89,9 +87,7 @@ export const Testimonials = () => {
                                  color: '$accents8',
                               }}
                            >
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl,
+                             Teks
                            </Text>
                            <Text
                               span
@@ -135,9 +131,7 @@ export const Testimonials = () => {
                                  color: '$accents8',
                               }}
                            >
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl,
+                             Teks
                            </Text>
                            <Text
                               span
@@ -179,10 +173,7 @@ export const Testimonials = () => {
                </Text>
                <Text h3>Testimonials</Text>
                <Text span css={{color: '$accents8', maxW: '600px', pb: '$8'}}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  condimentum, nisl ut aliquam lacinia, nisl nisl aliquet nisl,
-                  nec tincidunt nisl lorem eu nunc. Sed euismod, nisl ut aliquam
-                  lacinia,
+                  teks
                </Text>
                <Button>Read case studies</Button>
             </Flex>

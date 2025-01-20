@@ -23,8 +23,7 @@ export const Trial = () => {
                   textAlign: 'center',
                }}
             >
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-               condimentum, nisl
+               teks
             </Text>
 
             <Button>Button</Button>

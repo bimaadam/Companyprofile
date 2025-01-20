@@ -29,9 +29,7 @@ export const Statistics = () => {
                      textAlign: 'center',
                   }}
                >
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Iusto provident omnis deleniti temporibus pariatur corporis
-                  aperiam
+                 
                </Text>
             </Flex>
             <Flex
