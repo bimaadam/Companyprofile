@@ -1,4 +1,4 @@
-import { Button, Divider, Text } from '@nextui-org/react';
+import { Button, Divider, Text, Image } from '@nextui-org/react';
 import React from 'react';
 import { BoxIcon } from '../icons/BoxIcon';
 import { FeatureIcon } from '../icons/FeatureIcon';
@@ -29,7 +29,7 @@ export const Features2 = () => {
          >
             {/* Background Image */}
             <img
-               src="fiturbg1.jpg"
+               src="abyzain.jpg"
                alt=""
                style={{
                   position: 'absolute',
@@ -41,6 +41,7 @@ export const Features2 = () => {
                   opacity: 0.3,
                   zIndex: 1,
                }}
+
             />
 
             {/* Content Section */}
