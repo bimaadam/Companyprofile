@@ -1,8 +1,8 @@
-import {Button, Divider, Text} from '@nextui-org/react';
+import { Button, Divider, Text } from '@nextui-org/react';
 import React from 'react';
-import {BoxIcon} from '../icons/BoxIcon';
-import {FeatureIcon} from '../icons/FeatureIcon';
-import {Flex} from '../styles/flex';
+import { BoxIcon } from '../icons/BoxIcon';
+import { FeatureIcon } from '../icons/FeatureIcon';
+import { Flex } from '../styles/flex';
 
 export const Features2 = () => {
    return (
@@ -63,53 +63,53 @@ export const Features2 = () => {
                   },
                }}
             >
-              <Flex direction="column" align={'center'} css={{ px: '$8' }}> {/* Tambahkan padding horizontal */}
-   <Text span css={{ color: '$blue600' }}></Text>
-   <Text id="profile" h3>Tentang Perusahaan</Text>
-   <Text
-      span
-      css={{
-         maxWidth: '400px',
-         color: '$fff',
-         textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-         textAlign: 'center', // Agar teks rata tengah
-         padding: '$4', // Tambahkan padding yang sama di semua sisi
-      }}
-   >
-      CV. Abyzain Jaya Teknika merupakan perusahaan yang bergerak di bidang penyedia barang, fabrikasi, dan menangani perawatan, perbaikan, modifikasi permesinan industri. Terutama mesin-mesin industri manufacturing Mesin CNC, Press, Welding, Custom.
-   </Text>
+               <Flex direction="column" align={'center'} css={{ px: '$8' }}> {/* Tambahkan padding horizontal */}
+                  <Text span css={{ color: '$blue600' }}></Text>
+                  <Text id="profile" h3>Tentang Perusahaan</Text>
+                  <Text
+                     span
+                     css={{
+                        maxWidth: '400px',
+                        color: '$fff',
+                        textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
+                        textAlign: 'center', // Agar teks rata tengah
+                        padding: '$4', // Tambahkan padding yang sama di semua sisi
+                     }}
+                  >
+                     CV. Abyzain Jaya Teknika merupakan perusahaan yang bergerak di bidang penyedia barang, fabrikasi, dan menangani perawatan, perbaikan, modifikasi permesinan industri. Terutama mesin-mesin industri manufacturing Mesin CNC, Press, Welding, Custom.
+                  </Text>
 
-   {/* VISI */}
-   <Flex
-      justify={'center'}
-      wrap={'wrap'}
-      css={{
-         py: '$5',
-      }}
-   >
-      <Flex
-         css={{
-            py: '$10',
-            gap: '$5',
-         }}
-      >
-         {/* <BoxIcon /> */}
-         <Flex direction={'column'} css={{ alignItems: 'center' }}> {/* Rata tengah */}
-            <Text h4 weight={'medium'}>VISI</Text>
-            <Text
-               span
-               css={{
-                  maxWidth: '325px',
-                  textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-                  color: '$fff',
-                  textAlign: 'center', // Tambahkan rata tengah
-                  padding: '$4', // Konsisten padding
-               }}
-            >
-               Menjadi perusahaan dagang dan jasa yang terbaik dan terpercaya di seluruh Indonesia.
-            </Text>
-         </Flex>
-         </Flex>
+                  {/* VISI */}
+                  <Flex
+                     justify={'center'}
+                     wrap={'wrap'}
+                     css={{
+                        py: '$5',
+                     }}
+                  >
+                     <Flex
+                        css={{
+                           py: '$10',
+                           gap: '$5',
+                        }}
+                     >
+                        {/* <BoxIcon /> */}
+                        <Flex direction={'column'} css={{ alignItems: 'center' }}> {/* Rata tengah */}
+                           <Text h4 weight={'medium'}>VISI</Text>
+                           <Text
+                              span
+                              css={{
+                                 maxWidth: '325px',
+                                 textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
+                                 color: '$fff',
+                                 textAlign: 'center', // Tambahkan rata tengah
+                                 padding: '$4', // Konsisten padding
+                              }}
+                           >
+                              Menjadi perusahaan dagang dan jasa yang terbaik dan terpercaya di seluruh Indonesia.
+                           </Text>
+                        </Flex>
+                     </Flex>
 
                   </Flex>
 
@@ -123,25 +123,25 @@ export const Features2 = () => {
                      {/* <BoxIcon /> */}
                      <Flex direction={'column'}>
                         <Text h4 weight={'medium'}
-                        css={{
-                           textAlign: 'center',
-                        }}>MISI</Text>
+                           css={{
+                              textAlign: 'center',
+                           }}>MISI</Text>
                         <Flex direction={'column'}>
-   <ul
-      className="misi-list"
-      style={{
-         paddingLeft: '3.5rem',
-         textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
-         margin: 0,
-         lineHeight: '1.6',
-      }}
-   >
-      <li>Meningkatkan dan mensupport perkembangan Industri.</li>
-      <li>Menjalin kerjasama dengan banyak relasi.</li>
-      <li>Memberikan lapangan pekerjaan bagi masyarakat.</li>
-      <li>Menjalin hubungan kerja sama yang baik dengan para distributor dan konsumen.</li>
-   </ul>
-</Flex>
+                           <ul
+                              className="misi-list"
+                              style={{
+                                 paddingLeft: '3.5rem',
+                                 textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)',
+                                 margin: 0,
+                                 lineHeight: '1.6',
+                              }}
+                           >
+                              <li>Meningkatkan dan mensupport perkembangan Industri.</li>
+                              <li>Menjalin kerjasama dengan banyak relasi.</li>
+                              <li>Memberikan lapangan pekerjaan bagi masyarakat.</li>
+                              <li>Menjalin hubungan kerja sama yang baik dengan para distributor dan konsumen.</li>
+                           </ul>
+                        </Flex>
 
 
                      </Flex>
@@ -150,7 +150,7 @@ export const Features2 = () => {
             </Flex>
 
             {/* Feature Icon */}
-            <Flex align={'center'} css={{zIndex: 2}}>
+            <Flex align={'center'} css={{ zIndex: 2 }}>
                <FeatureIcon />
             </Flex>
          </Flex>

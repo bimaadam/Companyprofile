@@ -129,10 +129,11 @@ export const Hero = () => {
                   '& img': {
                      width: '775px',
                      objectFit: 'contain',
+                     boxShadow: '$xs',
                   },
                }}
             >
-               <img src="bg.jpg" />
+               <img src="cvabyzain.jpg" />
             </Box>
          </Flex>
          <Divider
